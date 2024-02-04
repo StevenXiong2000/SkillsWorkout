@@ -44,8 +44,8 @@ object ScheduleAlarmUtils {
             )
             alarmManager.setExactAndAllowWhileIdle(
                 AlarmManager.RTC_WAKEUP,
-                System.currentTimeMillis() + day * 5000L, //test case
-                //calendar.timeInMillis, //real one
+                //System.currentTimeMillis() + day * 5000L, //test case
+                calendar.timeInMillis, //real one
                 pendingIntent
             )
 
