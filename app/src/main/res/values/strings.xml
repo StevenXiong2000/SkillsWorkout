@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SkillsWorkout</string>
+    <string name="label_reply">Reply</string>
 </resources>
